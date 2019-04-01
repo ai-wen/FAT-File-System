@@ -1,6 +1,11 @@
 # FAT-File-System
 Implementation of the FAT16 and FAT32 file system write APIs in C language.
 
+File systems provide efficient and convenient access to
+disk by allowing data to be stored, located and retrieved easily. The File Allocation Table (FAT)
+file system was introduced in the Microsoft MS-DOS operating system in the 1980s. It is simply
+a singly-linked list of clusters in a large table. 
+
 Implementation of OS_creat:
 
   OS_creat() creates a new file in a directory given the path. I maintain global
